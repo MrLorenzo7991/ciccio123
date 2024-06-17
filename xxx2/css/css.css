@@ -1,0 +1,31 @@
+.qb {
+    width: 500px;
+    height: 500px; 
+    background-color: white;
+}
+
+.pb {
+    width: 100px;
+    height: 100px;
+    background-color: white; /* Colore di sfondo blu */
+    clip-path: polygon(25% 20%, 75% 50%, 25% 80%); /* Forma a triangolo per il pulsante play */
+    cursor: pointer; /* Cambia il cursore quando ci passi sopra */
+    transition: background-color 0.3s ease; /* Transizione graduale del colore di sfondo */
+}
+
+.pb:hover {
+    background-color: red; /* Colore di sfondo quando ci passi sopra con il mouse */
+}
+
+.pb1 {
+    width: 100px;
+    height: 100px;
+    background-color: #b4e1ff; /* Colore di sfondo blu */
+    clip-path: polygon(25% 20%, 75% 50%, 25% 80%); /* Forma a triangolo per il pulsante play */
+    cursor: pointer; /* Cambia il cursore quando ci passi sopra */
+    transition: background-color 0.3s ease; /* Transizione graduale del colore di sfondo */
+}
+
+.pb1:hover {
+    background-color: red; /* Colore di sfondo quando ci passi sopra con il mouse */
+}
